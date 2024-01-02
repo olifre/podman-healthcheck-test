@@ -1,4 +1,4 @@
-From: debian:12
+FROM debian:12
 
 # Healthcheck
 HEALTHCHECK --interval=15s --timeout=5s --retries=5 \
